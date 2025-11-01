@@ -1,0 +1,14 @@
+﻿name: AxEThrill_Module
+version: "1.0"
+entrypoint: main.py
+domains:
+  - 00_KERNEL
+  - 01_AGENT
+dependencies:
+  - numpy
+  - pydantic
+environment:
+  PYTHONPATH: .
+metadata:
+  author: SpiralCloudOmega
+  description: Microcontainer for AxEThrill QENETiX agent

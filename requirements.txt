@@ -1,0 +1,12 @@
+jsonschema
+pyyaml
+markdown
+rich
+typer
+streamlit
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+requests
+

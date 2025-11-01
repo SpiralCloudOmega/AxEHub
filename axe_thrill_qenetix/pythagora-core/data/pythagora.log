@@ -1,0 +1,88 @@
+2025-11-01T23:15:03.886Z INFO SharedStateManager initialized
+2025-11-01T23:15:03.886Z INFO Is remote: false
+2025-11-01T23:15:03.886Z INFO Starting Local. Installation path: c:\Users\autom\OneDrive\Documents\GitHub\AxEHub\axe_thrill_qenetix
+2025-11-01T23:15:03.887Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-01T23:15:03.888Z INFO Installation path exists: c:\Users\autom\OneDrive\Documents\GitHub\AxEHub\axe_thrill_qenetix
+2025-11-01T23:15:03.888Z INFO Initializing database with URL: file:c:\Users\autom\OneDrive\Documents\GitHub\AxEHub\axe_thrill_qenetix\pythagora-core\data\database\pythagora.db
+2025-11-01T23:15:03.890Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-11-01T23:15:03.891Z INFO Database initialized successfully
+2025-11-01T23:15:03.891Z INFO [Migration] Checking for database migration...
+2025-11-01T23:15:05.693Z INFO [Migration] No migration needed
+2025-11-01T23:15:06.523Z INFO Starting right sidebar creation...
+2025-11-01T23:15:06.523Z INFO Initializing MainProvider...
+2025-11-01T23:15:06.524Z INFO Updating user profile...
+2025-11-01T23:15:06.524Z INFO No access token found when trying to fetch user profile
+2025-11-01T23:15:06.525Z INFO Creating right panel...
+2025-11-01T23:15:06.525Z INFO Creating right panel...
+2025-11-01T23:15:06.525Z INFO Closing all existing tabs...
+2025-11-01T23:15:07.039Z INFO Right panel webview created
+2025-11-01T23:15:07.040Z INFO Right panel HTML set successfully
+2025-11-01T23:15:07.040Z INFO Right panel setup completed
+2025-11-01T23:15:07.040Z INFO Setting up right panel dependencies...
+2025-11-01T23:15:07.048Z INFO Right panel dependencies setup complete, waiting for ready signal...
+2025-11-01T23:15:07.868Z INFO MainProvider handleMessage {"command":"rightPanelReady","data":{},"source":"right"}
+2025-11-01T23:15:07.869Z INFO Routing rightPanelReady through new unified router from right
+2025-11-01T23:15:07.869Z INFO [Message Router] Routing rightPanelReady through unified router
+2025-11-01T23:15:07.870Z INFO MainProvider handleMessage {"command":"rightBarRendered","data":"","source":"right"}
+2025-11-01T23:15:07.870Z INFO Right panel setup completed successfully
+2025-11-01T23:15:07.871Z INFO Right panel created via MainProvider
+2025-11-01T23:15:07.871Z INFO Storing initial prompt...
+2025-11-01T23:15:07.872Z INFO Tracing first panel open...
+2025-11-01T23:15:07.872Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-11-01T23:15:07.873Z INFO Routing updateUserProfile through new unified router from right
+2025-11-01T23:15:07.873Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-11-01T23:15:07.873Z INFO No access token found when trying to fetch user profile
+2025-11-01T23:15:08.245Z INFO Right sidebar setup completed successfully
+2025-11-01T23:15:09.845Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"email-signin-focus"},"source":"right"}
+2025-11-01T23:15:09.845Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"email-signin-focus"},"source":"right"}
+2025-11-01T23:15:09.866Z INFO [email-signin-focus] Tracing event:
+2025-11-01T23:16:05.694Z INFO Closing entire Pythagora extension...
+2025-11-01T23:16:05.694Z INFO Right panel disposed, triggering cleanup...
+2025-11-01T23:16:05.694Z INFO Right panel disposed, cleaning up...
+2025-11-01T23:16:05.723Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\autom\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.25\out\extension.js:390:31)
+    at Object.deactivate (c:\Users\autom\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.25\out\extension.js:295:15)
+    at SZ.eb (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-11-01T23:16:07.023Z INFO MainProvider handleMessage {"command":"coreExited","route":"broadcast"}
+2025-11-01T23:16:07.023Z INFO Routing coreExited through new unified router from unknown
+2025-11-01T23:16:07.024Z INFO [Message Router] Routing coreExited through unified router
+2025-11-01T23:16:07.024Z INFO Closing entire Pythagora extension...
+2025-11-01T23:16:07.025Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/autom/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\autom\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.25\out\extension.js:390:31)
+    at MainProvider.handleRightPanelDispose (c:\Users\autom\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.25\out\providers\MainProvider.js:311:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at od.value (c:\Users\autom\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.25\out\managers\WebviewManager.js:198:17)
+Extra context: {
+  "message": "Canceled"
+}
